@@ -11,4 +11,10 @@ public enum Grad {
     public String toString() {
         return this.broj;
     }
+
+
+    public boolean istiGradovi(Grad g){
+        if(this == g) return true;
+        return false;
+    }
 }
